@@ -1,7 +1,7 @@
 import memory_profiler
 
 
-
+@memory_profiler.profile
 def checa_primo(n):
     if n == 1:
         return False    
